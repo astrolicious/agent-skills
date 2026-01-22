@@ -58,14 +58,27 @@ Astro leverages an opinionated folder layout for your project. Every Astro proje
 
 Deploy to your favorite server, serverless, or edge host with build adapters. Use an adapter to enable on-demand rendering in your Astro project.
 
-**Add using Astro cli:**
+**Add [Node.js](https://docs.astro.build/en/guides/integrations-guide/node) adapter using astro add:**
 ```
-npx astro add node
+npx astro add node --yes
 ```
 
-**Popular adapters:** [Cloudflare](https://docs.astro.build/en/guides/integrations-guide/cloudflare/), [Netlify](https://docs.astro.build/en/guides/integrations-guide/netlify/), [Node.js](https://docs.astro.build/en/guides/integrations-guide/node/), [Vercel](https://docs.astro.build/en/guides/integrations-guide/vercel/).
+**Add [Cloudflare](https://docs.astro.build/en/guides/integrations-guide/cloudflare) adapter using astro add:**
+```
+npx astro add cloudflare --yes
+```
 
-[Community adapters](https://astro.build/integrations/2/?search=&categories%5B%5D=adapters)
+**Add [Netlify](https://docs.astro.build/en/guides/integrations-guide/netlify) adapter using astro add:**
+```
+npx astro add netlify --yes
+```
+
+**Add [Vercel](https://docs.astro.build/en/guides/integrations-guide/vercel) adapter using astro add:**
+```
+npx astro add vercel --yes
+```
+
+[Other Community adapters](https://astro.build/integrations/2/?search=&categories%5B%5D=adapters)
 
 ## Resources
 
