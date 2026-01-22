@@ -71,4 +71,5 @@ npx astro add node
 
 - [Docs](https://docs.astro.build)
 - [Config Reference](https://docs.astro.build/en/reference/configuration-reference/)
+- [llms.txt](https://docs.astro.build/llms.txt)
 - [GitHub](https://github.com/withastro/astro)
